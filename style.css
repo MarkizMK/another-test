@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lavender;
+}
+
+
+
+.landing {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top:31%;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    color:white;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    font-family: 'Bitter', serif;
+}
+
+.landing p {
+    transform: rotate(90deg);
+    text-shadow: 4px -3px 0 #7A7A7A;
+}
+
+.sliding-panels {
+    width: 20%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.red {
+    animation-name: red;  
+    animation-duration: 0.2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes red {
+    0%   {background: #AD12C9; left: 0px; top:-100vh;}
+    100% {background: #AD12C9; left:0px; top:0px;}
+  }
+
+.yellow {
+    animation-name: yellow;
+    animation-duration: 0.2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes yellow {
+    0%   {background: #FE5579; left: 0px; top:-100vh;}
+    100% {background: #FE5579; left:0px; top:0px;}
+  }
+
+.lime {
+    animation-name: lime;
+    animation-duration: 0.2s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;  
+}
+
+@keyframes lime {
+    0%   {background: #ffd240; left: 0px; top:-100vh;}
+    100% {background: #ffd240; left:0px; top:0px;}
+  }
+
+.turquoise {
+    animation-name: turquoise;
+    animation-duration: 0.2s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in; 
+}
+
+@keyframes turquoise {
+    0%   {background: #3bceac; left: 0px; top:-100vh;}
+    100% {background: #3bceac; left:0px; top:0px;}
+  }
+
+.mediumvioletred {
+    animation-name: mediumvioletred;
+    animation-duration: 0.2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in; 
+}
+
+@keyframes mediumvioletred {
+    0%   {background: #0EA0AD; left: 0px; top:-100vh;}
+    100% {background: #0EA0AD; left:0px; top:0px;}
+  }
+
+main {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+}
+
+section {
+    padding: 20px 0 20px 50px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+section h3 {
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
